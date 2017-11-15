@@ -1,5 +1,11 @@
 nginx (1.10.3-5ppa~stable) stable; urgency=high
 
+  * Added naxsi
+
+ -- Matthew Suan <matthew@mesasix.com>  Wed, 15 Nov 2017 13:14:53 +0530
+
+nginx (1.10.3-5ppa~stable) stable; urgency=high
+
   * Use new stable nginx source.
   * remove ngx_pagespeed package
   * change deprecated option --without-http_limit_zone_module to --without-http_limit_conn_module
