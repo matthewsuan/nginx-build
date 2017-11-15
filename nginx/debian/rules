@@ -120,7 +120,7 @@ custom_configure_flags := \
             --with-http_sub_module \
             --with-http_xslt_module \
             --add-module=$(MODULESDIR)/headers-more-nginx-module \
-            --add-module=$(MODULESDIR)/naxsi \
+            --add-module=$(MODULESDIR)/naxsi/naxsi_src \
             --add-module=$(MODULESDIR)/nginx-auth-pam \
             --add-module=$(MODULESDIR)/nginx-cache-purge \
             --add-module=$(MODULESDIR)/nginx-echo \
