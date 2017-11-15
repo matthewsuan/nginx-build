@@ -78,14 +78,6 @@ ppa_lib_echo "4/18 nginx-cache-purge"
 git clone https://github.com/FRiCKLE/ngx_cache_purge.git nginx-cache-purge \
 || ppa_error "Unable to clone nginx-cache-purge repo, exit status = " $?
 
-ppa_lib_echo "5/18 nginx-dav-ext-module"
-git clone https://github.com/arut/nginx-dav-ext-module.git \
-|| ppa_error "Unable to clone nginx-dav-ext-module repo, exit status = " $?
-
-ppa_lib_echo "6/18 nginx-development-kit"
-git clone https://github.com/simpl/ngx_devel_kit.git nginx-development-kit \
-|| ppa_error "Unable to clone nginx-development-kit repo, exit status = " $?
-
 ppa_lib_echo "7/18  nginx-echo"
 git clone https://github.com/agentzh/echo-nginx-module.git nginx-echo \
 || ppa_error "Unable to clone nginx-echo repo, exit status = " $?
